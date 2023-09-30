@@ -45,7 +45,7 @@ Para poder generar la documentación hay que primero añadir el android.jar del 
 
 Para generar el javador ahora le damos a Tools > Generate JavaDoc, y se tiene que incluir el autor y la versión. También hay que elegir dónde guardar la documentación. Cuando esté generado habrá que ir a build.gradle (del módulo app) y comentar la linea donde aparece la librería que hemos añadido, para que así podamos ejecutar el programa de nuevo, ya que si no nos saldría una excepción de que AndroidManifest.xml está duplicado
 
-#### Configuración git y Github
+### Configuración git y Github
 
 Para sincronizar Github con Android Studio hay que ir a Files > Version Control > GitHub, y añadimos nuestra cuenta introduciendo un token creado. Después se ha introducido la ruta donde se encuentra nuestro repositorio creado para sincronizarlo con nuestro proyecto.
 
